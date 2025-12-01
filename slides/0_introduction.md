@@ -1,11 +1,14 @@
 
 # Introduction
 
-## Published Research
+<div class="grid grid-cols-[5fr_3fr] gap-5">
+<div>
 
-Approach to Finding a Robust Deep Learning Model IEEE Access https://doi.org/10.1109/ACCESS.2025.3578926
+#### Published Research
 
-## How Do We Define Robustness?
+##### Approach to Finding a Robust Deep Learning Model<br> in IEEE Access https://doi.org/10.1109/ACCESS.2025.3578926
+
+#### How Do We Define Robustness?
 <!-- <v-clicks depth="3"> -->
 
 * We propose an empirical definition:  
@@ -14,13 +17,16 @@ Approach to Finding a Robust Deep Learning Model IEEE Access https://doi.org/10.
   * All model instances have an identical set of hyperparameters but differ in their:
     * (internal) nondeterministic initial states and algorithms;
     * (external) training samples drawn from the same population.
-
-<!-- * C1. By the definition above, any constant model would be absolutely robust.
-  * Therefore, to find a practically useful robust model, we need to solve a dual optimization problem: to identify a robust model with the best average performance. -->
-
-<!-- * С2. The robustness of a model depends on the robustness of the<!-- <span v-mark="{ at: 7, color: 'rgba(188, 13, 138, 0.15)', type: 'highlight' }"> -->
-<!-- quality metric<!-- </span> used. -->
-<!-- </v-clicks> -->
+</div>
+<div>
+<figure>
+<img src="/ECAL_results_position.png" style="width: 230px !important;">
+</figure>
+<figure>
+<img src="/ECAL_results_energy.png" style="width: 230px !important;">
+</figure>
+</div>
+</div>
 
 
 

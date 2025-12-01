@@ -46,6 +46,62 @@ class: text-center
 
 # Backup slides
 
+
+
+---
+
+---
+layout: statement
+---
+
+# Early Results
+## Selection by epoches
+
+
+---
+
+# Accuracy by Epoches
+
+<center>
+<figure>
+    <img src="/dots_epoches_20_50.png" style="width: 900px !important;">
+</figure>
+</center>
+
+
+---
+
+# Accuracy by Epoches
+
+<center>
+<figure>
+    <img src="/dots_epoches_20_50_top7.png" style="width: 900px !important;">
+</figure>
+</center>
+
+
+---
+
+# Accuracy by Epoches
+
+<center>
+<figure>
+    <img src="/epoches_kendall.png" style="width: 670px !important;">
+</figure>
+</center>
+
+
+
+---
+
+# Accuracy Overlap by Epoches
+
+<center>
+<figure>
+    <img src="/epoches_overlap.png" style="width: 670px !important;">
+</figure>
+</center>
+
 ---
 
 # Robust Model Selection Algorithm

@@ -62,7 +62,7 @@ layout: statement
 <div class="grid grid-cols-[2fr_2fr_2fr] gap-5">
 <div>
 
-* Warmup steps = 5
+* Warmup steps = 3
 </div>
 <div>
 
@@ -99,25 +99,7 @@ layout: statement
 </div>
 </div> -->
 
----
 
-# Accuracy Overlap
-
-<center>
-<figure>
-    <img src="/accuracy_overlap_models_1.png" style="width: 500px !important;">
-</figure>
-</center>
-
----
-
-# Accuracy Overlap
-
-<center>
-<figure>
-    <img src="/accuracy_overlap_models_5.png" style="width: 500px !important;">
-</figure>
-</center>
 
 
 ---
@@ -173,6 +155,53 @@ layout: statement
 </div>
 </div>
 
+
+---
+level: 2
+zoom: 1.1
+---
+
+# Conclusions
+
+* We propose a procedure to measure the robustness of machine learning models.
+
+* We supplement such a procedure with a meta-algorithm for robust model selection.
+
+* We tested their approach on the data of the CIFAR 10
+
+* Showed that our algorithm is more efficient than Grid Search
+
+<!-- * The two robust models for two specific problems found using this method have the best convergence and the smallest loss variability among the $2\times6912$ models considered.
+    * The models we found are more robust than the models selected by NAS from a similar search space.
+    * ~ 8x speedup in training time is observed compared to an exhaustive search;
+        * The total training time can be further reduced by using robust model search on subsamples. -->
+
+<br>
+
+##### A paper with this method has been published in the IEEE Access journal. DOI: [10.1109/ACCESS.2025.3578926](https://doi.org/10.1109/ACCESS.2025.3578926)
+
+
+---
+
+# Accuracy Overlap
+
+<center>
+<figure>
+    <img src="/accuracy_overlap_models_1.png" style="width: 500px !important;">
+</figure>
+</center>
+
+---
+
+# Accuracy Overlap
+
+<center>
+<figure>
+    <img src="/accuracy_overlap_models_5.png" style="width: 500px !important;">
+</figure>
+</center>
+
+
 ---
 
 # Std Overlap
@@ -194,55 +223,5 @@ layout: statement
 </center>
 
 
----
-layout: statement
----
 
-# Early Results
-## Selection by epoches
-
-
----
-
-# Accuracy by Epoches
-
-<center>
-<figure>
-    <img src="/dots_epoches_20_50.png" style="width: 900px !important;">
-</figure>
-</center>
-
-
----
-
-# Accuracy by Epoches
-
-<center>
-<figure>
-    <img src="/dots_epoches_20_50_top7.png" style="width: 900px !important;">
-</figure>
-</center>
-
-
----
-
-# Accuracy by Epoches
-
-<center>
-<figure>
-    <img src="/epoches_kendall.png" style="width: 670px !important;">
-</figure>
-</center>
-
-
-
----
-
-# Accuracy Overlap by Epoches
-
-<center>
-<figure>
-    <img src="/epoches_overlap.png" style="width: 670px !important;">
-</figure>
-</center>
 
