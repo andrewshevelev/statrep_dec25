@@ -11,7 +11,7 @@ addonsConfig:
       - metaFooter
       - tocFooter
 
-background: /mountain.jpg
+background: /background.png
 
 # some information about your slides (markdown enabled)
 info: |
@@ -46,12 +46,12 @@ author: Alexey Boldyrev, Fedor Ratnikov, Andrey Shevelev
 # Status Report
 ### Alexey Boldyrev, Fedor Ratnikov, <u>Andrey Shevelev</u> <br><br>
 #### LAMBDA 01/12/2025
-<div>
+<!-- <div>
 <br>
 <span style="color:#b3b3b3ff; font-size: 11px; float: right;">Image credit: ‘Glacier du Rhone au haut du Valais’<br> by Claude Niquet after Jean Séraphin Désiré Besson<br>
 <a href="https://wellcomecollection.org/works/e3y95vtv">https://wellcomecollection.org/works/e3y95vtv</a>
 </span>
-</div>
+</div> -->
 
 <style>
   :deep(footer) { padding-bottom: 3em !important; }

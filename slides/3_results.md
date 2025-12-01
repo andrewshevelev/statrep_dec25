@@ -11,13 +11,32 @@ layout: statement
 # Models Accuracy Distribution
 
 <!-- <br><br> -->
-
-<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<!-- <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
     <figure>
-        <img src="/accuracy_distribution.png" style="width: 500px;">
+        <img src="/accuracy_distribution2.png" style="width: 500px;">
     </figure>
-</div>
+</div> -->
+<center>
+<figure>
+    <img src="/accuracy_distribution2.png" style="width: 460px !important;">
+</figure>
+</center>
 
+<br>
+<div class="grid grid-cols-[2fr_2fr_2fr] gap-5">
+<div>
+
+* Models: 72
+</div>
+<div>
+
+* Instances: 20 
+</div>
+<div>
+
+* Train sample: 30k examples
+</div>
+</div>
 
 <!-- ---
 
@@ -43,15 +62,15 @@ layout: statement
 <div class="grid grid-cols-[2fr_2fr_2fr] gap-5">
 <div>
 
-* Train sample: 30k examples
-</div>
-<div>
-
 * Warmup steps = 5
 </div>
 <div>
 
 * ⭐ - base model 
+</div>
+<div>
+
+* Train sample: 30k examples
 </div>
 </div>
 
@@ -109,9 +128,24 @@ layout: statement
 
 <center>
 <figure>
-    <img src="/confidence_level_by_mean.png" style="width: 600px !important;">
+    <img src="/confidence_level_by_mean.png" style="width: 550px !important;">
 </figure>
 </center>
+
+<div class="grid grid-cols-[2fr_2fr_2fr] gap-5">
+<div>
+
+* Instances: 20
+</div>
+<div>
+
+* Models: 72
+</div>
+<div>
+
+* Train sample: 30k examples
+</div>
+</div>
 
 
 ---
