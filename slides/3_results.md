@@ -18,7 +18,7 @@ layout: statement
 </div> -->
 <center>
 <figure>
-    <img src="/accuracy_distribution3.png" style="width: 460px !important;">
+    <img src="/accuracy_distribution3.png" style="width: 900px !important;">
 </figure>
 </center>
 
